@@ -1,3 +1,4 @@
+const { test, expect } = require('@playwright/test');
 const {Given, When, Then} = require('@cucumber/cucumber')
 const convertToFloat = require("../helpers/convert-float");
 const DashboardPage = require("../pages/dashboard-page");
@@ -24,5 +25,5 @@ Then('o valor constado no card deverá ser o mesmo do checkout', async function 
     await checkoutPage.waitBoxTaxes();
     priceCheckout = await checkoutPage.getPriceCheckout();
     priceCheckout = convertToFloat(priceCheckout);
-    let boolVal = await checkoutPage.validatePrice(priceSearch, priceCheckout);
+    // expect(priceCheckout).toBeGreaterThan(priceSearch);
 });
