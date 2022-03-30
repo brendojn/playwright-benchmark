@@ -1,0 +1,254 @@
+
+# Criado por https://www.toptal.com/developers/gitignore/api/node,webstorm
+# Edite em https://www.toptal.com/developers/gitignore?templates=node,webstorm
+
+### Nó ###
+# Histórico
+Histórico
+*.registro
+npm-debug.log*
+yarn-debug.log*
+fio-erro.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Relatórios de diagnóstico (https://nodejs.org/api/report.html)
+relatório.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+#Dados de tempo de execução
+pids
+*.pid
+*.semente
+*.pid.lock
+
+# Diretório para libs instrumentadas geradas por jscoverage/JSCover
+lib-cov
+
+# Diretório de cobertura usado por ferramentas como istambul
+cobertura
+*.lkov
+
+# cobertura de teste nyc
+.nyc_output
+
+# Armazenamento intermediário do Grunt (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunhido
+
+# Diretório de dependências do Bower (https://bower.io/)
+bower_components
+
+# configuração node-waf
+.lock-wscript
+
+# Complementos binários compilados (https://nodejs.org/api/addons.html)
+construir/lançar
+
+# Diretórios de dependência
+node_modules/
+jspm_packages/
+
+# Diretório de dependências do Snowpack (https://snowpack.dev/)
+web_modules/
+
+# cache TypeScript
+*.tsbuildinfo
+
+# Diretório de cache npm opcional
+.npm
+
+# Cache eslint opcional
+.eslintcache
+
+# Cache stylelint opcional
+.stylelintcache
+
+# Cache de micropacote
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Histórico de REPL opcional
+.node_repl_history
+
+# Saída do 'pacote npm'
+*.tgz
+
+# Arquivo de integridade do fio
+.yarn-integrity
+
+# arquivos de variáveis ​​de ambiente dotenv
+.env
+.env.desenvolvimento.local
+.env.test.local
+.env.produção.local
+.env.local
+
+# cache do pacote de pacotes (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Saída da compilação Next.js
+.Próximo
+Fora
+
+# Nuxt.js constrói/gera saída
+.nuxt
+distância
+
+# arquivos Gatsby
+.cache/
+# Comente na linha pública se seu projeto usa Gatsby e não Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# público
+
+# saída de compilação do vuepress
+.vuepress/dist
+
+# vuepress v2.x diretório temporário e de cache
+.temp
+
+# Cache do Docusaurus e arquivos gerados
+.docusaurus
+
+# Diretórios sem servidor
+.serverless/
+
+# Cache do FuseBox
+.Caixa de Fusiveis/
+
+# Arquivos locais do DynamoDB
+.dynamodb/
+
+# Arquivo de porta TernJS
+.tern-port
+
+# Armazena as versões do VSCode usadas para testar as extensões do VSCode
+.vscode-test
+
+# fio v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+### Correção do nó ###
+# Diretórios do Webpack sem servidor
+.webpack/
+
+# Cache stylelint opcional
+
+# SvelteKit constrói / gera saída
+.svelte-kit
+
+### Tempestade da Web ###
+# Abrange IDEs JetBrains: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm e Rider
+# Referência: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# Coisas específicas do usuário
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dicionários
+.idea/**/prateleira
+
+# Específico do usuário da AWS
+.idea/**/aws.xml
+
+# Arquivos gerados
+.idea/**/contentModel.xml
+
+# Arquivos sensíveis ou de alta rotatividade
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Grade
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Gradle e Maven com importação automática
+# Ao usar Gradle ou Maven com importação automática, você deve excluir arquivos de módulo,
+# já que eles serão recriados e podem causar churn. Descomente se estiver usando
+# importação automática.
+# .ideia/artefatos
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+# *.iml
+# *.ipr
+
+#CMake
+cmake-build-*/
+
+# Plugin Mongo Explorer
+.idea/**/mongoSettings.xml
+
+# Formato de projeto baseado em arquivo
+*.iws
+
+#IntelliJ
+Fora/
+
+# plugin mpeltonen/sbt-idea
+.idea_modules/
+
+# plugin JIRA
+atlassian-ide-plugin.xml
+
+# Plugin Cursive Clojure
+.idea/replstate.xml
+
+# Plugin SonarLint
+.idea/sonarlint/
+
+# Plugin Crashlytics (para Android Studio e IntelliJ)
+com_crashlytics_export_strings.xml
+propriedades do crashlytics
+crashlytics-build.properties
+tecido.propriedades
+
+# Cliente Rest baseado em Editor
+.idea/httpRequests
+
+# Arquivo de cache serializado do Android studio 3.1+
+.idea/caches/build_file_checksums.ser
+
+### Correção do WebStorm ###
+# Motivo do comentário: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# *.iml
+#modulos.xml
+# .idea/misc.xml
+# *.ipr
+
+# Plugin Sonarlint
+# https://plugins.jetbrains.com/plugin/7973-sonarlint
+.idea/**/sonarlint/
+
+# Plugin SonarQube
+# https://plugins.jetbrains.com/plugin/7238-sonarqube-community-plugin
+.idea/**/sonarIssues.xml
+
+# Plugin Navegador de Markdown
+# https://plugins.jetbrains.com/plugin/7896-markdown-navigator-enhanced
+.idea/**/markdown-navigator.xml
+.idea/**/markdown-navigator-enh.xml
+.idea/**/markdown-navigator/
+
+# Erro de criação de arquivo de cache
+# Veja https://youtrack.jetbrains.com/issue/JBR-2257
+.idea/$CACHE_FILE$
+
+# Plugin CodeStream
+# https://plugins.jetbrains.com/plugin/12206-codestream
+.idea/codestream.xml
+
+# Fim de https://www.toptal.com/developers/gitignore/api/node,webstorm
